@@ -32,11 +32,16 @@ This Python script automates the process of signing up for a free trial of PortS
 5. **Execution**:
    - When run, it automates the process of signing up for the Burp Suite Professional trial by simulating HTTP requests and form submissions.
 
-6. **Comments**:
+6. **Usage**
+```python
+python3 ./portswigger.py --email any@domain.edu.uk
+```
+
+7. **Comments**:
    - The comments in the code help explain each step of the signup process and provide context for the purpose of each method and request.
 
-7. **Objective**:
+8. **Objective**:
    - The objective of this script is to simplify the process of signing up for the trial by automating the manual steps involved.
 
-8. **Disclaimer**:
+9. **Disclaimer**:
    - It's important to note that automating web interactions like this should only be done in accordance with the terms of service of the website in question.
