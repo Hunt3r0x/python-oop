@@ -33,7 +33,7 @@ This Python script automates the process of signing up for a free trial of PortS
    - When run, it automates the process of signing up for the Burp Suite Professional trial by simulating HTTP requests and form submissions.
 
 6. **Usage**
-```python
+```bash
 python3 ./portswigger.py --email any@domain.edu.uk
 ```
 
