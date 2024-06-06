@@ -81,7 +81,7 @@ class PortSwiggerTrial:
         )
 
     def third_post_request(self):
-        objective = 'any any any any any'
+        objective = f'My name is {self.name} and I have been conducting security assessments and vulnerability analysis within various domains, and I believe that Burp Suite Pro would greatly enhance my capabilities in identifying and mitigating potential security threats. Its advanced features, such as its robust scanner and comprehensive toolset, align perfectly with the requirements of my research projects.'
         response = self.session.post(
             'https://portswigger.net/burp/pro/trial/objectives',
             headers=self.headers,
@@ -91,6 +91,7 @@ class PortSwiggerTrial:
                 'OrderId': self.order_id
             }
         )
+        print(objective)
 
     def fourth_post_request(self):
         role = 'Practitioner'
