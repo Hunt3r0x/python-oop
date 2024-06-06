@@ -117,7 +117,7 @@ class PortSwiggerTrial:
         self.fourth_post_request()
 
 @click.command()
-@click.option('--email', '-email', '-e', prompt='Enter your email', help='The email address to use for the trial.')
+@click.option('--email', '-email', '-e', prompt='Enter your email', help='The email address to use for the trial. MUST BE WORK OR EDU EMAIL')
 def main(email):
     trial = PortSwiggerTrial(email)
     trial.run()
